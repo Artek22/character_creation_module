@@ -63,7 +63,7 @@ class Healer(Character):
     SPECIAL_SKILL = 'Защита'
 
 
-def start_training(character: Character) -> None:
+def start_training(character: Character) -> str:
     """
     Принимает на вход имя и класс персонажа.
     Возвращает сообщения о результатах цикла тренировки персонажа.
